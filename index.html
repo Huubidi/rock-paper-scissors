@@ -7,7 +7,37 @@
 <body>
   <script>
     // Your JavaScript goes here!
-    console.log("Hello, World!")
+    
+    function getComputerChoice(max) {
+    
+      return Math.floor(Math.random() * max);
+  
+      getComputerChoice(3);
+      //this function returns us a random number, either 0, 1 or 2
+  }
+
+
+   let displayAnswer = getComputerChoice(3) ; {
+//this function takes the random number from getComputerchoice
+    if (displayAnswer === 0)
+    //alert("rock")
+    console.log("rock");
+    else if (displayAnswer === 1)
+    //alert("paper")
+    console.log("paper");
+    else if (displayAnswer === 2)
+    //alert("scissors")
+    console.log("scissors");
+    //the above functions associate each number from 0-2 with the approppriate word and print it into the console
+    //console.log(displayAnswer);    
+
+
+   } 
+   
+   //console.log(getComputerChoice(3));
+
+
+
   </script>
 </body>
 </html>
