@@ -13,28 +13,38 @@
       return Math.floor(Math.random() * max);
   
       getComputerChoice(3);
+      
       //this function returns us a random number, either 0, 1 or 2
   }
 
-
-   let displayAnswer = getComputerChoice(3) ; {
-//this function takes the random number from getComputerchoice
-    if (displayAnswer === 0)
+   let computerSelection = getComputerChoice(3) ; { //this function takes the random number from getComputerchoice
+    
+    if (computerSelection === 0)
     //alert("rock")
     console.log("rock");
-    else if (displayAnswer === 1)
+    else if (computerSelection === 1)
     //alert("paper")
     console.log("paper");
-    else if (displayAnswer === 2)
+    else if (computerSelection === 2)
     //alert("scissors")
     console.log("scissors");
-    //the above functions associate each number from 0-2 with the approppriate word and print it into the console
-    //console.log(displayAnswer);    
-
-
+    
+    //the above functions associate each number from 0-2 with the approppriate word and print it into the console 
    } 
    
-   //console.log(getComputerChoice(3));
+   let playerSelection = prompt("Submit your selection").toLowerCase(); //this variable takes the userinput and makes it lowercase
+   
+
+   //function playRound(playerSelection, computerSelection) {
+
+    //if playerSelection = ("rock") + 
+
+
+
+   //}
+   
+
+
 
 
 
